@@ -10,7 +10,8 @@ class KnownValues(unittest.TestCase):
                     (9487634567534, '9.5T'),
                     (199000, '199,000'),
                     (0, '0'),
-                    (-1000, '-1,000'))
+                    (-1000, '-1,000'),
+                    (18599.784, '18,599.784'))
 
     def test_prettify_number_known_values(self):
         '''prettify.number should give known results with valid input'''
